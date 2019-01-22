@@ -1,14 +1,40 @@
-body {
-  margin: 0;
-  padding: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.error-msg{
+  color: #f50;
+  padding-left: 10px;
+  padding-top: 10px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+.am-tab-bar{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: -1;
+}
+.fixed-header .am-navbar{
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.page-content{
+  padding: 45px 5px;
+}
+
+#chat-page .chat-me .am-list-extra{
+  flex-basis: auto;
+}
+#chat-page .chat-me .am-list-content{
+  padding-right: 15px;
+  text-align: right;
+}
+#chat-page .am-grid-icon{
+  display: none;
+}
+#chat-page .am-grid-text{
+  margin-top: 0;
+}
+.stick-footer{
+  z-index: 10;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
